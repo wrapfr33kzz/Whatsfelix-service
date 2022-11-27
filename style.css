@@ -115,9 +115,7 @@ body{
 {
     padding: 20px;
     text-align: center;
-   
     opacity: 1;
-    transform: 0.5s;
 
 }
 .container .card:hover .content
