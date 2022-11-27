@@ -116,7 +116,7 @@ body{
     padding: 20px;
     text-align: center;
     transform: translateY(100px);
-    opacity: 0;
+    opacity: 1;
     transform: 0.5s;
 
 }
