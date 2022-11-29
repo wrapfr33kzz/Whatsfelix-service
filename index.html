@@ -1,75 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>safan_server</title>
-    <link rel="stylesheet" href="style.css" />
-    <link
-      rel="shortcut icon"
-      href="https://cdn-icons-png.flaticon.com/512/4712/4712139.png"
-    />
-  </head>
-  <body>
-    <div style="background-color: #f1f1f1; padding: 15px">
-      <h1>Felix service</h1>
-      <h3>Whatsfelix service</h3>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>safan_server</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/4712/4712139.png" />
+
+</head>
+
+<body>
+  <div id="robin" style="background-color: #f1f1f1; padding: 15px">
+    <h1>Felix service</h1>
+    <h3>Whatsfelix service</h3>
+    <div class="dropdown">
+      <button class="dropbtn">Menu</button>
+      <div class="dropdown-content">
+        <a href="#"><ion-icon name="home"></ion-icon></a>
+        <a href="login.html"><ion-icon name="person-add"></ion-icon></a>
+        <a href="#"><ion-icon name="chatbox-ellipses"></ion-icon></a>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="bdy"></div>
+  <div class="home">
+    <div class="header1">
+      <h1 class="phead">choose the best plan for your business</h1>
+    </div>
+    <div class="container">
+      <div class="card">
+        <div class="content">
+          <h2></h2>
+          <h3>free</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
+            in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
+            quasi dolorum eaque dicta?
+          </p>
+          <a href="#">buy it</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2></h2>
+          <h3>premium</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
+            in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
+            quasi dolorum eaque dicta?
+          </p>
+          <a href="#">buy it</a>
+        </div>
+      </div>
+      <div class="card">
+        <div class="content">
+          <h2></h2>
+          <h3>premium</h3>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
+            in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
+            quasi dolorum eaque dicta?
+          </p>
+          <a href="#">buy it</a>
+        </div>
+      </div>
     </div>
 
-    <div class="bdy"></div>
-    <div class="home">
-      <div class="header1">
-        <h1 class="phead">choose the best plan for your business</h1>
-      </div>
-      <div class="container">
-        <div class="card">
-          <div class="content">
-            <h2></h2>
-            <h3>free</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
-              in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
-              quasi dolorum eaque dicta?
-            </p>
-            <a href="#">buy it</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <h2></h2>
-            <h3>premium</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
-              in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
-              quasi dolorum eaque dicta?
-            </p>
-            <a href="#">buy it</a>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
-            <h2></h2>
-            <h3>premium</h3>
-            <p>
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Repellendus mollitia cumque quaerat vitae voluptate ducimus harum
-              in facere? Voluptatibus eum cumque earum veniam optio aperiam quos
-              quasi dolorum eaque dicta?
-            </p>
-            <a href="#">buy it</a>
-          </div>
-        </div>
-      </div>
-      <script type="text/javascript" src="vanilla-tilt.js"></script>
-      <script>
-        VanillaTilt.init(document.querySelector(".card"), {
-          max: 25,
-          speed: 400,
-        });
-      </script>
-    </div>
-  </body>
+    <!-- javascript  -->
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script>
+      VanillaTilt.init(document.querySelector(".card"), {
+        max: 25,
+        speed: 400,
+      });
+    </script>
+  </div>
+</body>
+
 </html>
