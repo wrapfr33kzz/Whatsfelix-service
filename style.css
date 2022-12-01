@@ -61,7 +61,7 @@ body{
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     align-items: center;
-    text-shadow: 2px 2px 5px rgba(250, 250, 250, 0.296);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.911);
     
   }
   
@@ -251,3 +251,6 @@ body{
 
 /* sticky */
 
+p{
+  font-family: sans-serif;
+}
