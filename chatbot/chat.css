@@ -2,18 +2,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    }
-    body {
+}
+
+body {
     width: 100vw;
     height: 100vh;
-    
+
     font-family: sans-serif;
     background: rgb(27, 165, 219);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    }
-    .glass {
+}
+
+.glass {
 
     width: 500px;
     margin: auto;
@@ -22,7 +24,7 @@
     padding: 50px;
     margin: auto;
     border: 3px solid green;
-    padding: 10px; 
+    padding: 10px;
     color: #000;
     border-radius: 10px;
     backdrop-filter: blur(50px);
@@ -32,8 +34,9 @@
     line-height: 1.5;
     transform: translatey(-5%);
     transition: transform 0.5s;
-    }
-    .glass-1 {
+}
+
+.glass-1 {
     width: 500px;
     height: 400px;
     background-color: rgba(255, 255, 255, 0.1);
@@ -48,22 +51,26 @@
     transform: translatey(-5%);
     transition: transform 0.5s;
     font-size: 1.7rem;
-    }
-    .glass h1 {
+}
+
+.glass h1 {
     font-size: 1.5rem;
     text-align: center;
-    }
-    .glass h2 {
+}
+
+.glass h2 {
     font-size: 1rem;
     margin-top: 20px;
-    }
-    .input {
+}
+
+.input {
     width: 100%;
     height: 70px;
     overflow: hidden;
     margin-top: 40px;
-    }
-    .input input {
+}
+
+.input input {
     width: 100%;
     height: 70px;
     border: none;
@@ -72,14 +79,16 @@
     outline: none;
     font-size: 1.5rem;
     border-radius: 20px;
-    }
-    .glass p {
+}
+
+.glass p {
     font-size: 1.6rem;
     margin-top: 30px;
-    }
+}
 
-.container
-{
+.container {
     position: relative;
+    margin-left: auto;
+    margin-right: auto;
     align-items: center;
 }
