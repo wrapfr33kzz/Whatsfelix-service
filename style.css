@@ -211,7 +211,7 @@ body{
 
 /* navbar end */
 .dropbtn {
-  background-color: #3c6c95;
+  background-color: #3c6b9500;
   color: rgb(0, 0, 0);
   padding: 16px;
   font-size: 20px;
@@ -253,4 +253,13 @@ body{
 
 p{
   font-family: sans-serif;
+}
+#robin{
+  box-shadow: inset 4.10px 8.46px 12.56px -1.57px rgba(0, 0, 0, 0.15),
+  inset -6.14px -12.69px 12.56px -1.57px rgba(0, 0, 0, 0.3),
+  12.29px 25.38px 9.42px -4.71px rgba(0, 0, 0, 0.032);
+}
+
+@media only screen and (max-width: 600px) {
+ 
 }
